@@ -70,6 +70,24 @@ actor URLShortener {
 }
 ```
 
+### デプロイメントログ
+```bash
+Deploying
+Reserved canister 'url-shortner-backend' with id xumeo-zyaaa-aaaab-qadaa-cai with the playground.
+Reserved canister 'url-shortner-frontend' with id x2ojg-ciaaa-aaaab-qadba-cai with the playground.
+Installed code for canister url-shortner-backend, with canister ID xumeo-zyaaa-aaaab-qadaa-cai
+WARN: This project uses the default security policy for all assets. While it is set up to work with many applications, it is recommended to further harden the policy to increase securit y against attacks like XSS.
+WARN: To get started, have a look at 'dfx info canister-security-policy'. It shows the default security policy along with suggestions on how to improve it.
+WARN: To disable the policy warning, define "disable_security_policy_warning": true in ic-assets.json5.
+Installed code for canister url-shortner-frontend, with canister ID x2ojg-ciaaa-aaaab-qadba-cai
+Deployed canisters.
+URLS:
+Frontend canister via browser:
+url-shortner-frontend: https://x2ojg-ciaaa-aaaab-qadba-cai.icpl.io/
+Backend canister via Candid interface:
+url-shortner-backend: https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.icpl.io/?id=xumeo-zyaaa-aaaab-qadaa-cai
+```
+
 ## デモ
 
 ### デプロイコマンドの出力
